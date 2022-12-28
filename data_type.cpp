@@ -6,8 +6,8 @@ int main(){
 
     char b='d';
     cout<< b<<endl;
-    //char c='cv';
-    //cout<< c<<endl;
+    // char c="bv";
+    // cout<< c<<endl;
 
     bool d=true;
     cout<< d <<endl;
@@ -21,6 +21,10 @@ int main(){
     int s;
     s=sizeof(a);
     cout<< "size of int is "<< s<<endl;
+
+    string str;
+    cin>>str;
+    cout<<str;
 
 
 }

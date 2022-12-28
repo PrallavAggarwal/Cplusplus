@@ -1,0 +1,134 @@
+ As complexity increases architecture dominates the material.
+
+types of programming approaches :
+ top down
+ bottom up
+ modular
+ structured
+
+to improves the efficiency of large programmes Object Oriented Programming
+is introduced.
+
+PROCEDURE ORIENTED PROGRAMMING
+high level languages like COBOL,FORTRAN and C.
+problem divided into sequence.
+main focus on functions.
+data free to move.
+POP uses global data which makes data more vulnerable.
+uses top down approach.
+
+
+OBJECT ORIENTED PROGRAMMING
+it divides problems into objects.
+more focus on data.
+uses bottom up approach.
+object has two part:
+ data and function
+for data set in object a user defined data type : CLASS
+objects are class variables.
+
+
+ENCAPSULATION
+wrapping of data and function into one unit called class.
+Abstraction is the act of reprsenting features without showing background work.
+since classes uses abstraction technique these are called abstract data type.
+
+
+POLYMORPHISM
+greek term means the ablity to take another form.
+allows different objects to share same external but different internal interface. 
+the process of making an operator to exhibit different behaviors instances is called operator overloading.
+
+
+DYNAMIC BINDING
+it means that the code associated with the procedure call is not known until the time of call on runtime.
+
+
+MESSAGING PASSING
+
+
+CHAPTER 2
+History of C++ : Developed by Bjarne Stroustrup at AT&T Bell Labs in 1980s
+C++ is a mixture of Simula67 and C.
+Additional features in c++ are: classes, inheritance, function overloading
+, operator overloading, abstract data types, and polymorphism.
+
+
+PROGRAM FEATURES
+every C++ program must have main().
+
+COUT
+identifier cout is predefined object that represents the standard output stream.
+and standard output stream represents the screen.
+<< is called insertion or put to operator. it is an example of operator overloading.
+we can also use printf() in c++.
+
+PREPROCESSORS
+#symbol indicates the preprocessors.
+#include is a preprocessor direcrtive.
+iostream is the header file that has meaning of cout and << and many more.
+files with .h are the older versions.
+
+NAMESPACE
+it defines the scope for identifiers.
+'using' directive is used to use namespace.
+'std' is the type of namespace.
+
+RETURN TYPE
+default return type for all function in c++ is integer.
+main without return type 
+
+CIN
+identifier cin is predifined object in c++
+operator >> is an extraction or get from operator that corresponds to std i/p stream.
+here stream represents the keyboard.
+
+CASCADING OF I/O OPERATOR
+the multiple use << operator is cascading
+cout<< sum << average << total;
+
+
+
+CHAPTER 3
+TOKENS
+smallest individual unit in a program.
+tokens in c++:
+keywords
+identifiers
+constants
+strings
+operators 
+
+
+KEYWORDS:reserved identifiers.some are new in c++.
+IDENTIFIERS:user defined names of variables,function,array,classes etc.there are some rules to define these names.
+VARIABLE NAME LENGTH IN C IS 32 WHILE IN C++ IS 1 TO 255.
+CONSTANT:fixed values that do not change with execution of program.
+"abc" string constant
+'a' character constant
+L'ab' wide character constant (not available in c)
+
+
+TYPES OF DATATYPES IN C++:
+1.USER DEFINED
+2.DERIVED
+3.BUILT-IN
+
+
+datatypes have some modifiers like:signed, unsigned, long, short for integer and character.
+Features of Void:
+indicate empty argument list to a function ex. void func1(void);
+declaration of generic pointers ex. 
+void *gp;
+int *ip;
+gp = *ip;
+*ip=*gp; //invalid statement
+void *p1;
+char *p2;
+p2=p1; //not valid in c++ but valid in c.
+p2=(char *)p1; //valid in c.
+
+ 
+
+ 
+ 
